@@ -1,0 +1,46 @@
+{
+  "name": "digitalrepublicbank",
+  "version": "1.0.0",
+  "description": "Gerenciador de contas e transações bancárias.",
+  "main": "./api/server.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node .",
+    "debug": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarcisio-Menezes/digitalRepublicBank.git"
+  },
+  "keywords": [
+    "Node.js",
+    "REST",
+    "Express",
+    "Sequelize",
+    "MySQL"
+  ],
+  "author": "Tarcísio Menezes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tarcisio-Menezes/digitalRepublicBank/issues"
+  },
+  "homepage": "https://github.com/Tarcisio-Menezes/digitalRepublicBank#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint-config-trybe-backend": "^1.0.4",
+    "express": "^4.17.1",
+    "express-rescue": "^1.1.31",
+    "joi": "^17.5.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.2",
+    "sequelize-cli": "^6.3.0",
+    "validar-cpf": "^2.1.2"
+  },
+  "devDependencies": {
+    "frisby": "^2.1.3",
+    "jest": "^27.4.4",
+    "nodemon": "^2.0.15",
+    "shelljs": "^0.8.4"
+  }
+}
